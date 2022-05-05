@@ -16,11 +16,11 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    comment_text: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
-    password: {
+    price: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
